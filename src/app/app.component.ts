@@ -8,8 +8,4 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   pageName: string = 'recipes';
-
-  onHeaderPageSelected(selectedPageName: string) {
-    this.pageName = selectedPageName;
-  }
 }
